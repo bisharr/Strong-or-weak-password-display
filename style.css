@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #201f21;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inpux-box {
+  width: 40rem;
+  max-width: 90%;
+  position: relative;
+}
+.inpux-box input {
+  width: 100%;
+  height: 6rem;
+  padding: 0 2rem;
+  outline: none;
+  border: 0.2rem solid #ccc;
+  color: #fff;
+  background: transparent;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1.5rem;
+}
+
+button img {
+  width: 3.5rem;
+}
+#message {
+  position: absolute;
+  bottom: -3rem;
+  color: #fff;
+  font-size: 1.5rem;
+  display: none;
+}
+::placeholder {
+  font-size: 1.5rem;
+}
